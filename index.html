@@ -1,1 +1,16 @@
-
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>文字数確認</title>
+</head>
+<body>
+  <div>
+    <h1>文字数確認</h1>
+    <textarea rows='10' cols='50' onkeyup="ShowLength(value);"></textarea>
+    <!-- onkeyupイベント:keyを放したときに発生するイベント -->
+    <p id='inputlength'>0文字</p>
+  </div>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
